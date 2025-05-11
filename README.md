@@ -17,7 +17,11 @@ Before running the tests, ensure you have the following installed:
 📁 Project Structure
 The project structure is as follows:
 
-├───esim-purchase-tests
-├───Pages
-├───StepDefinitions
-└───Features
+- Features / CreateUser.feature
+- StepDefinitions / StepDefinitions.cs
+- Pages / BasePage.cs - MainPage.cs
+
+▶️ How to Run the Tests
+1. Navigate to `esim-purchase-tests`
+2. Run command: `dotnet restore` to restore dependencies
+3. Run command: `dotnet test` to execute the tests
