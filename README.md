@@ -16,18 +16,8 @@ Before running the tests, ensure you have the following installed:
 
 📁 Project Structure
 The project structure is as follows:
-esim-purchase-tests/
-src/
-test/
-Pages/
-BasePage.cs
-MainPage.cs
-StepDefinitions/
-eSimPurchaseSteps.cs
-Features/
-CreateUser.feature
-Helpers/
-ConfigReader.cs
-Hooks/
-Hooks.cs
-Usings.cs
+
+├───esim-purchase-tests
+├───Pages
+├───StepDefinitions
+└───Features
